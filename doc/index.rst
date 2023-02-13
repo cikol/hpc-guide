@@ -4,14 +4,19 @@
    table of contents
 
 
-word-count
+HPC User Guide 
 ==========
 
 .. toctree::
    :maxdepth: 2
 
-   purpose.rst
-   dependencies.rst
-   usage.rst
-   credit.rst
-   exercises.rst
+   getting_access.md
+   general_gudelines.md
+   hardware.md
+   software.md
+   getting_started.md
+   job_managment.md
+   gpu_cuda.md
+   containers.md
+   accounting.md
+   online_resources.md
