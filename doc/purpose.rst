@@ -3,7 +3,7 @@
 Purpose
 =======
 
-Write me ...
+Test if it works
 
 
 Zipf's law
