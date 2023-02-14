@@ -1,4 +1,4 @@
-# General guidelines for using HPC system
+# General guidelines for using HPC
 ## Terms of Use
 Terms of use are available online here: [Terms of Use](https://hpc.rtu.lv/hpc/hpc-services/using-hpc/?lang=en)    
 
@@ -13,7 +13,7 @@ If a job requires intensive disk operation (I/O), it is advised to use a local S
 
 Evaluate the performance of parallel (MPI) jobs by using a various number of nodes/cores to select the most suitable one for your job. A larger number of cores does not always ensure faster execution of a job.  
 
-## Contacts for Technical Support
+## Technical Support
 Technical support is provided to all HPC cluster users. The support includes assistance in preparing jobs, installing application software, briefing on the work with the cluster, consulting.  
 
 In some areas (such as computational chemistry), we can also provide scientific support by helping to choose the most appropriate simulation tool for your problem or to create a simulation model.  

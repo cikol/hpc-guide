@@ -20,7 +20,7 @@ General System parameters:
 ## Access Network
 10 Gbps connection with Latvian Academic computer network, European Academic Computer Network GEANT, Genomics Data Network, and 2 Gbps to commercial Internet providers in Latvia is provided.
 
-##HPC cluster “Rudens”
+## HPC cluster RUDENS
 ### Login nodes
 - ui-2.hpc.rtu.lv (primary): 2 x AMD EPYC 7502P (Rome) @ 2.5GHz (kopā 64 kodoli), RAM 256 GB DDR4, 3.5 TB NVMe RAID 0, 100 Gb/s Ethernet piekļuves tīkls, 100 Gbiti/s Infiniband EDR
 - ui-1.hpc.rtu.lv: 2 x Intel Xeon CPU E5-2680 v3 @ 2.50GHz (total 24 cores), 128 GB RAM, 10 Gb/s Ethernet access network, 56 Gb/s InfiniBand FDR 
@@ -39,6 +39,8 @@ General System parameters:
 - Job Management: Torque 6.1.1.1/ Moab 9.1.1
 - Accounting: Moab Accounting Manager
 - OS image provisioning: xCAT
+
+## OpenStack Cloud
 
 ## Data Storage Systems
 ### NFS network data storage (238 TB, /home) 
