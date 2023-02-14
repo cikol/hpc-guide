@@ -10,13 +10,14 @@ HPC User Guide
 .. toctree::
    :maxdepth: 2
 
-   getting_access.md
-   general_gudelines.md
-   hardware.md
-   software.md
-   getting_started.md
-   job_managment.md
-   gpu_cuda.md
-   containers.md
-   accounting.md
-   online_resources.md
+   01_getting_access.md
+   02_general_gudelines.md
+   03_hardware.md
+   04_software.md
+   05_user_interfaces.md
+   06_getting_started.md
+   07_job_managment.md
+   08_gpu_cuda.md
+   09_containers.md
+   10_accounting.md
+   11_online_resources.md
