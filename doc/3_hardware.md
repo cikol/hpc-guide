@@ -5,6 +5,8 @@ Several network-attached storage systems are available for storing user data wit
 
 Users connect to a separate login node which provides a work environment and tools for running jobs in the cluster. Job management is provided by Torque/Moab tools.
 
+![alt text](./images/data_center.jpg)
+
 General System parameters:
 - 54 computing nodes
 - 1200+ CPU cores
@@ -17,6 +19,8 @@ General System parameters:
 
 ## Access Network
 10 Gbps connection with Latvian Academic computer network, European Academic Computer Network GEANT, Genomics Data Network, and 2 Gbps to commercial Internet providers in Latvia is provided.
+
+##HPC cluster “Rudens”
 ### Login nodes
 - ui-2.hpc.rtu.lv (primary): 2 x AMD EPYC 7502P (Rome) @ 2.5GHz (kopā 64 kodoli), RAM 256 GB DDR4, 3.5 TB NVMe RAID 0, 100 Gb/s Ethernet piekļuves tīkls, 100 Gbiti/s Infiniband EDR
 - ui-1.hpc.rtu.lv: 2 x Intel Xeon CPU E5-2680 v3 @ 2.50GHz (total 24 cores), 128 GB RAM, 10 Gb/s Ethernet access network, 56 Gb/s InfiniBand FDR 
@@ -57,7 +61,7 @@ General System parameters:
 ### Scratch disks (15 TB in total) 
 -	Computing nodes are equipped with local SDD disks with capacity up to 3.5 TB
 
-## Nodes
+## Node names
 | Name | Type | RAM  | CPU |	CPU cores |	GPUs | 	Local disk | qsub features |
 | ---- | ---- | ---- | --- | --------- | ---- | ----------- | ------------- |
 | rudens | cluseter head | 32 GB | E5-2620 v3 |  |  |  | 
