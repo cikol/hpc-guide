@@ -10,7 +10,7 @@ Users connect to a separate login node which provides a work environment and too
 General System parameters:
 - 35 computing nodes
 - 1344 CPU cores
-- 12 TB RAM (up to 1.5 TB per process)
+- 12 TB RAM (up to 2 TB per process)
 - 20 Graphical Nvidia Tesla processors (GPU)
 - 181 TFlops overall performance (75 Tflops x86 + 106 Tflops GPU)
 - 1.6 PB data storage
@@ -50,15 +50,15 @@ General System parameters:
 ## Data Storage Systems
 ### Primary: BeeGFS #2 Network-attached Storage (1.3 PB, /home_beegfs; /scratch_beegfs) 
 -	2 nodes SuperStorage 6029P 
--	Parallel file system BeeGFS 
+-	Parallel file system BeeGFS
 -	100Gbit/s Infiniband  
 -	30TB NVMe fast disk pool
 -	1.3 PB NL SAS disk pool
 
-### Isilon NAS NFS NAS (238 TB, /home) 
+### Isilon NAS (238 TB, /home) 
 - 8 nodes EMC Isilon x200 
--	Distributive file system OneFS, 
--	client connection with NFS protocol  
+-	Distributive file system OneFS 
+-	NFS client connection 
 -	40 Gb/s InfiniBand connection with the cluster
 -	238 TB SATA SDD + SATA Spinning disks  
 
@@ -74,15 +74,15 @@ General System parameters:
 - 600 TB NL SAS disk pool
 
 ### Scratch disks (31 TB in total) 
--	Computing nodes are equipped with local SDD disks with capacity up to 3.5 TB
+Computing nodes are equipped with local SDD disks with capacity up to 3.5 TB
 
-### Connection diagram
+### Storage connection diagram
 
 ![hpc_storage](./images/storage.png)
 
 ---
 
-## Node names
+## Node names and features
 | Name | Type | RAM  | CPU |	CPU cores |	GPUs | 	Local disk | qsub features |
 | ---- | ---- | ---- | --- | --------- | ---- | ----------- | ------------- |
 | rudens | cluseter head | 32 GB | E5-2620 v3 |  |  |  | 
