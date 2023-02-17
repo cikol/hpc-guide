@@ -58,5 +58,5 @@ This section gives a summary of the scientific software installed on the HPC clu
 - Jaer 1.8.1
 
 On request, additional software or other versions may be installed. Centos, EPEL, and OpenHPC repositories are used on the cluster. Tools available through the OpenHPC repository can be found in the following list: [OpenHPC](https://github.com/openhpc/ohpc/wiki/Component-List-v1.3.8).  
-Users can also install/compile the software in their user area themselves if the installation process does not require administrator (root) permissions.
-Check the cluster directory `/opt/exp_soft/user` info for the examples of software usage and job batch scripts.
+Users can also install/compile the software in their user area themselves if the installation process does not require administrator (root) permissions.  
+Check the cluster directory `/opt/exp_soft/user_info` for the examples of software usage and job batch scripts.
